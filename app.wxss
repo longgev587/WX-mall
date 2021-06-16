@@ -1,0 +1,25 @@
+@import "./styles/iconfont.wxss";
+page,view,text,swiper,swiper-item,image,navigator{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* 主题颜色 通过一个变量来实现
+1.less 中 存在 变量这个知识的
+2.原生的css和wxss也是支持 变量的
+*/
+page{
+  /*定义主体颜色*/
+  --themeColor:#eb4450;
+  /* 定义统一字体大小   假设设计稿是375px 在小程序中默认一个屏幕是750rpx大小
+    14px=28rpx
+  */
+  font-size: 28rpx;
+
+}
+image{
+  width: 100%;
+}
+
+
+
